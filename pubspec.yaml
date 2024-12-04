@@ -1,0 +1,45 @@
+name: boilerplate
+description: "A Flutter template."
+publish_to: "none"
+version: 1.0.0+1
+
+environment:
+  sdk: ^3.5.3
+
+dependencies:
+  flutter:
+    sdk: flutter
+  cupertino_icons: ^1.0.8
+  flutter_riverpod: ^2.6.1
+  riverpod_annotation: ^2.6.1
+  flutter_dotenv: ^5.2.1
+  shared_preferences: ^2.3.3
+  timeago: ^3.7.0
+  intl: ^0.19.0
+  cloud_firestore: ^5.5.0
+  cached_network_image: ^3.4.1
+  shimmer: ^3.0.0
+  firebase_core: ^3.8.0
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+  flutter_lints: ^4.0.0
+  riverpod_generator: ^2.6.3
+  build_runner: ^2.4.13
+  custom_lint: ^0.7.0
+
+flutter:
+  uses-material-design: true
+
+  assets:
+    - assets/images/
+fonts:
+  - family: quicksand
+    fonts:
+      - asset: assets/fonts/quicksand.ttf
+
+  - family: quicksand_bold
+    fonts:
+      - asset: assets/fonts/quicksand_bold.ttf
